@@ -24,16 +24,36 @@ header {
 }
 
 .logo {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     display: block;
 }
 
 nav ul {
     list-style: none;
+    border-bottom: 3px solid #9dc5f0;
+    overflow: hidden;
+    border-left: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
 }
 
 nav ul li {
     float: left;
     padding: 8px 25px;
     border-left: 1px solid #f4f4f4;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    color: #5f5f67;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
